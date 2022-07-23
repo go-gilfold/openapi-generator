@@ -99,8 +99,8 @@ public abstract class AbstractJavaCodegen extends DefaultCodegen implements Code
     protected String scmConnection = "scm:git:git@github.com:openapitools/openapi-generator.git";
     protected String scmDeveloperConnection = "scm:git:git@github.com:openapitools/openapi-generator.git";
     protected String scmUrl = "https://github.com/openapitools/openapi-generator";
-    protected String licenseName = "Unlicense";
-    protected String licenseUrl = "http://unlicense.org";
+    protected String licenseName = "MIT";
+    protected String licenseUrl = "https://opensource.org/licenses/MIT";
     protected String projectFolder = "src/main";
     protected String projectTestFolder = "src/test";
     // this must not be OS-specific

@@ -55,7 +55,7 @@ public class CrystalClientCodegen extends DefaultCodegen {
     protected String shardVersion = "1.0.0";
     protected String specFolder = "spec";
     protected String srcFolder = "src";
-    protected String shardLicense = "unlicense";
+    protected String shardLicense = "MIT";
     protected String shardHomepage = "https://openapitools.org";
     protected String shardSummary = "A Crystal SDK for the REST API";
     protected String shardDescription = "This shard maps to a REST API";
@@ -199,7 +199,7 @@ public class CrystalClientCodegen extends DefaultCodegen {
         cliOptions.add(new CliOption(SHARD_VERSION, "shard version.").defaultValue("1.0.0"));
 
         cliOptions.add(new CliOption(SHARD_LICENSE, "shard license.").
-                defaultValue("unlicense"));
+                defaultValue("MIT"));
 
         cliOptions.add(new CliOption(SHARD_HOMEPAGE, "shard homepage.").
                 defaultValue("http://org.openapitools"));

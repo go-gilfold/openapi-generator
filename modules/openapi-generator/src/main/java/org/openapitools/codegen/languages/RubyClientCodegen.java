@@ -53,7 +53,7 @@ public class RubyClientCodegen extends AbstractRubyCodegen {
     protected String gemVersion = "1.0.0";
     protected String specFolder = "spec";
     protected String libFolder = "lib";
-    protected String gemLicense = "unlicense";
+    protected String gemLicense = "MIT";
     protected String gemRequiredRubyVersion = ">= 1.9";
     protected String gemHomepage = "https://openapitools.org";
     protected String gemSummary = "A Ruby SDK for the REST API";
@@ -144,7 +144,7 @@ public class RubyClientCodegen extends AbstractRubyCodegen {
         cliOptions.add(new CliOption(GEM_VERSION, "gem version.").defaultValue("1.0.0"));
 
         cliOptions.add(new CliOption(GEM_LICENSE, "gem license. ").
-                defaultValue("unlicense"));
+                defaultValue("MIT"));
 
         cliOptions.add(new CliOption(GEM_REQUIRED_RUBY_VERSION, "gem required Ruby version. ").
                 defaultValue(">= 2.4"));

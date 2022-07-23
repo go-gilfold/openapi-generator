@@ -460,8 +460,8 @@ public class JavaJAXRSCXFExtServerCodegenTest extends JavaJaxrsBaseTest {
         assertEquals(additionalProperties.get(CodegenConstants.DEVELOPER_ORGANIZATION), "OpenAPITools.org");
         assertEquals(additionalProperties.get(CodegenConstants.DEVELOPER_ORGANIZATION_URL), "http://openapitools.org");
         assertEquals(additionalProperties.get(CodegenConstants.GROUP_ID), "org.openapitools");
-        assertEquals(additionalProperties.get(CodegenConstants.LICENSE_NAME), "Unlicense");
-        assertEquals(additionalProperties.get(CodegenConstants.LICENSE_URL), "http://unlicense.org");
+        assertEquals(additionalProperties.get(CodegenConstants.LICENSE_NAME), "MIT");
+        assertEquals(additionalProperties.get(CodegenConstants.LICENSE_URL), "https://opensource.org/licenses/MIT");
         assertEquals(additionalProperties.get(CodegenConstants.SCM_CONNECTION),
                 "scm:git:git@github.com:openapitools/openapi-generator.git");
         assertEquals(additionalProperties.get(CodegenConstants.SCM_DEVELOPER_CONNECTION),

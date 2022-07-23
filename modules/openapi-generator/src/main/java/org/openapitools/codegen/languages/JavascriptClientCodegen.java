@@ -321,7 +321,7 @@ public class JavascriptClientCodegen extends DefaultCodegen implements CodegenCo
             projectDescription = "Client library of " + projectName;
         }
         if (StringUtils.isBlank(licenseName)) {
-            licenseName = "Unlicense";
+            licenseName = "MIT";
         }
 
         additionalProperties.put(PROJECT_NAME, projectName);
